@@ -1,0 +1,91 @@
+body {
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #fbfbf8;
+}
+
+p, footer {
+    color: #636363;
+    margin-top: 1px;
+}
+
+ul {
+    color: #636363;
+    margin-top: -15px;
+    list-style-type: circle;
+}
+
+h1 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #dcb239;
+    margin-bottom: 0px;
+    margin-top: 2px;
+}
+
+h4 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #dcb239;
+    margin-bottom: 0px;
+    margin-top: 1px;
+}
+
+figure {
+    margin: 10px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project {
+    border-width: 3px;
+    border-color: #cf8b64;
+    border-style: solid;
+    height: 250px;
+    width: auto;
+}
+
+.profile { 
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 5px;
+    border-color: #cf8b64;
+    border-style: solid;
+    width: 200px;
+    height: auto;
+}
+
+#name {
+    font-family: Arial, Helvetica, sans-serifs;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    color: #cf8b64;
+}
+
+.social {
+    height: 50px;
+    width: auto;
+    margin: 5px;
+}
+
+#role {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    color: #dcb239;
+}
+
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 20px; 
+    }
+    .project {
+        width: 80%;
+        height: auto;
+    }
+}
